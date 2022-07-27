@@ -1096,17 +1096,17 @@ textarea:focus-within {
   margin-right: 7px;
 } */
 
-.form-field-checkbox:focus-within > .icon-temporary-checkbox {
-  border: 2px solid var(--accent-bt-color);
+.checkbox:focus-within + .icon-temporary-checkbox {
+  fill: var(--accent-bt-color);
+  /* border-radius: 2px; */
 }
 
 .checkbox:checked + .icon-temporary-checkbox {
   background-color: var(--accent-bt-color);
   fill: var(--accent-bt-color);
   border-radius: 2px;
-  /* border-radius: 2px;
-  /* border-color: transparent; */
-  /* background-size: contain;
+  /* border-color: transparent;
+  background-size: contain;
   background-origin: border-box; */
   background-image: url("../images/icon-check.svg");
 }
