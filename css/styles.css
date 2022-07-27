@@ -1001,11 +1001,11 @@ a.link-work:focus {
   cursor: pointer;
 }
 
-.form-field-checkbox input[type="checkbox"] {
+/* .form-field-checkbox input[type="checkbox"] {
   width: 16px;
   height: 15px;
   color: var(--title-text-color);
-}
+} */
 
 .text-checkbox {
   font-weight: 400;
@@ -1014,6 +1014,7 @@ a.link-work:focus {
   letter-spacing: 0.03em;
 
   color: var(--prymary-text-color);
+  cursor: pointer;
 }
 
 .link-checkbox {
@@ -1063,4 +1064,28 @@ textarea:focus-within {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.text-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-temporary-checkbox {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  margin-right: 7px;
+}
+
+.checkbox:checked + .icon-temporary-checkbox {
+  background-color: var(--accent-bt-color);
+  border-radius: 2px;
+  border-color: transparent;
+  background-size: contain;
+  background-origin: border-box;
+  background-image: url("../images/icon-check.svg");
 }
