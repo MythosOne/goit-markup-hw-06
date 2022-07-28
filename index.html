@@ -545,20 +545,13 @@
           <h3 class="join-text">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
           <form class="form-footer">
             <div class="form-field-footer">
-              <div class="field-footer" type="mail">
-                <input
-                  type="email"
-                  name="mail"
-                  id="mail"
-                  placeholder="E-mail"
-                />
-              </div>
-              <div class=""><button type="submit" class="button prymary form-footer">
+              <input type="email" name="mail" id="mail" placeholder="E-mail" />
+              <button type="submit" class="button prymary form-footer">
                 Подписаться
                 <svg class="form-btn-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
-                </svg></button>
-              </div>
+                </svg>
+              </button>
             </div>
           </form>
         </div>
@@ -571,31 +564,39 @@
         <form class="form-mailing-list" autocomplete="off">
           <div class="form-field-mail">
             <div class="form-field">
-              <label for="name"><p class="field-header">Имя</p></label>
+              <label for="name" class="field-header">Имя</label>
               <div class="form-input">
-                <input class="input-active" type="text" name="name" id="name"/>
+                <input class="input-active" type="text" name="name" id="name" />
                 <svg class="icon-input" width="18" height="18">
-                  <use href="./images/icons.svg#icon-person-black"></use></svg>
+                  <use href="./images/icons.svg#icon-person-black"></use>
+                </svg>
               </div>
             </div>
             <div class="form-field">
-              <label for="tel"><p class="field-header">Телефон</p></label>
+              <label for="tel" class="field-header">Телефон</label>
               <div class="form-input">
                 <input class="input-active" type="tel" name="tel" id="tel" />
                 <svg class="icon-input" width="18" height="18">
-                  <use href="./images/icons.svg#icon-phone-black"></use></svg>
+                  <use href="./images/icons.svg#icon-phone-black"></use>
+                </svg>
               </div>
             </div>
             <div class="form-field">
-              <label for="mail"></label><p class="field-header">Почта</p></label>
+              <label for="mail" class="field-header">Почта</label>
               <div class="form-input">
-                <input class="input-active" type="email" name="mail" id="mail" />
+                <input
+                  class="input-active"
+                  type="email"
+                  name="mail"
+                  id="mail"
+                />
                 <svg class="icon-input" width="18" height="18">
-                  <use href="./images/icons.svg#icon-email-black"></use></svg>
+                  <use href="./images/icons.svg#icon-email-black"></use>
+                </svg>
               </div>
             </div>
             <div class="form-field">
-              <label for="comment"><p class="field-header">Комментарий</p></label>
+              <label for="comment" class="field-header">Комментарий</label>
               <textarea
                 name="comment"
                 id="comment"
@@ -605,12 +606,22 @@
             </div>
             <div class="form-field-checkbox">
               <label class="text-checkbox" for="treaty">
-                <input class="checkbox" type="checkbox" name="treaty" value="" id="treaty" />
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name="treaty"
+                  value=""
+                  id="treaty"
+                />
                 <svg class="icon-temporary-checkbox" width="16" height="15">
-                  <use href="./images/icons.svg#icon-checkbox-black"/>
+                  <use href="./images/icons.svg#icon-checkbox-black" />
                 </svg>
                 Соглашаюсь с рассылкой и принимаю&nbsp;
-                <a class="link-checkbox" href="//https:" target="_blank" rel="noreferrer noopener"
+                <a
+                  class="link-checkbox"
+                  href="//https:"
+                  target="_blank"
+                  rel="noreferrer noopener"
                   >Условия договора</a
                 >
               </label>
@@ -621,11 +632,11 @@
               </button>
             </div>
           </div>
-        <button class="modal-btn-close" data-modal-close>
-          <svg class="modal-btn-icon" width="18" height="18">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
+          <button class="modal-btn-close" data-modal-close>
+            <svg class="modal-btn-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
         </form>
       </div>
     </div>
