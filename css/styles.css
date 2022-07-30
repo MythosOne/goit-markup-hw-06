@@ -1037,6 +1037,7 @@ a.link-work:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
+  text-underline-position: under;
 
   color: var(--accent-bt-color);
 }
